@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+.prodTab-container{
+    position: relative;
+    top: 4rem;
+    font-family: "Outfit";
+    
+}
+
+.prodTab-prod{
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+}
+
+.prodTab-span{
+    margin: 1rem 2rem 1rem 0rem;
+}
+.prodTab-comp{
+    font-size: small;
+    font-weight: 900;
+}
+.prodTab-comp:hover{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+}
+
+
+.prodTab-hr{
+    border-top: none
+}
+
+.prodTab-icon-filter{
+    margin-top:1rem ;
+    float: right;
+}
+.prodTab-icon-filter:hover{
+   cursor: pointer;
+}

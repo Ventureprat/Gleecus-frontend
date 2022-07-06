@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+.PageNav-container{
+    position: relative;
+    top: 2rem;
+}
+
+.PageNav-link{
+    
+    font-family: 'Outfit';
+    text-decoration: none;
+    font-weight: 800;
+    font-size: small;
+    margin: .5rem;
+    
+}
