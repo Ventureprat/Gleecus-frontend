@@ -17,8 +17,9 @@ function TableComp() {
       .then((rowData) => {
         const newRowData = rowData.data.map((dataObj) => {
           const sum = Object.values(dataObj)
-            .splice(2)
+            .splice(1)
             .reduce((partialSum, a) => partialSum + a, 0);
+          console.log(sum);
           dataObj.total_hours = sum;
           return dataObj;
         });
